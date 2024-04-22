@@ -39,7 +39,7 @@ style: |
     }
 ---
 
-# Network as Code Primer
+# Network As Code Primer
 
 <!-- Do not add page number on this slide -->
 <!--
@@ -47,13 +47,13 @@ _paginate: false
 -->
 
 ```text
-How to build out / test / deploy network configuration through a CI Pipeline / Test1234
+Network As Code: eine kurze Einführung
 
 Patrick Mathy
                                       Apr 2024
 ```
 
-<style scoped>footer {font-size: 25px; color: blue; opacity: 0.6; text-shadow: 2px 2px rgba(0,0,0,.4);}</style>
+<style scoped>footer {font-size: 25px; color: darkblue; opacity: 0.6; text-shadow: 2px 2px rgba(0,0,0,.4);}</style>
 <!-- Add footer starting from this slide -->
 <!--
 footer: 'DENOG Meetup 2024-04, Darmstadt'
@@ -67,11 +67,11 @@ footer: 'DENOG Meetup 2024-04, Darmstadt'
 
 - Patrick Mathy
   
-  - Arista Systems Engineering at Arista Networks
-  - Networking around since 2016
-  - ACE: L5, CCIE 57751
-  - Having fun with network and automation in campus, DC and everywhere else
-  - Some Python, Ansible, Terraform, NetDevOps, etc
+  - Systems Engineer bei Arista Networks
+  - Herumnetzwerken seit 2016
+  - ACE:L3; ACE:L5
+  - Spaß mit Netzwerk und Automatisierung in Campus, DC und überall sonst
+  - Ein bisschen Python, Ansible, Terraform, NetDevOps, etc.
 
 ![bg right w:200](img/bmage.jpg)
 
@@ -81,17 +81,15 @@ footer: 'DENOG Meetup 2024-04, Darmstadt'
 
 <style scoped>section {font-size: 22px;}</style>
 
-![bg right ](img/pexels-suzy-hazelwood-1226398.jpg)
+![bg right ](img/agenda.jpg)
 
-- Ansible AVD collection overview
-- Common challenges when building Ansible environment
-- Why devcontainers?
-- Pre-building a devcontainer with [arista.avd](https://avd.arista.com/), docker-in-docker and Containerlab using Github [devcontainers/ci@v0.3](https://github.com/devcontainers/ci) action.
-- How to run the container on any machine (with docker run or as devcontainer) or Github Codespaces
+- Was ist Network as Code?
+- Warum NaC?
+- Automatisierung und Pipelines und Git, oh weh!
+- Eine kleine Toolsammlung
 
 ---
 
 # Q&A
 
-- [forum.ansible.com](https://forum.ansible.com/)
 - [in/patrick-mathy](https://www.linkedin.com/in/patrick-mathy/)
