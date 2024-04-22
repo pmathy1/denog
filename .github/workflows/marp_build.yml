@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main ]
     paths:
-    - meetup_2024-04/marp_slides.md
-    - img/*
+      - meetup_2024-04/marp_slides.md
+      - img/*
 #    - excalidraw/*
 #    - drawio/*
 #    - tldraw/*
